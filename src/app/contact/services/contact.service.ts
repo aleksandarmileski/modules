@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { Contact } from './../components/contact';
+import { Contact } from './../components/contact/contact';
 
 const CONTACTS: Contact[] = [
   new Contact(21, 'Sam Spade'),
