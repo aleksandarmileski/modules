@@ -8,8 +8,6 @@ import { HeroComponent } from './components/hero/hero.component';
 import { HeroListComponent } from './components/hero-list/hero-list.component';
 import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
 
-import { HighlightDirective } from './highlight.directive';
-
 @NgModule({
   imports: [
     CommonModule,
@@ -17,7 +15,6 @@ import { HighlightDirective } from './highlight.directive';
     HeroRoutingModule,
   ],
   declarations: [
-    HighlightDirective,
     HeroComponent,
     HeroListComponent,
     HeroDetailComponent

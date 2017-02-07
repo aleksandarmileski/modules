@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Contact } from './../../components/contact/contact';
 
-import { UserService } from './../../../services/user.service';
+import { UserService } from './../../../core/user.service';
 import { ContactService } from './../../services/contact.service';
 
 @Component({
