@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  subtitle = '(v1)';
+  subtitle = '(v3)';
 }

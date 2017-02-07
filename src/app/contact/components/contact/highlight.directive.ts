@@ -1,17 +1,8 @@
 import { Directive, ElementRef } from '@angular/core';
-
-@Directive({
-  selector: '[highlight], input'
-})
+@Directive({ selector: '[highlight], input' })
 export class HighlightDirective {
-
-  constructor(
-    private el: ElementRef
-  ) {
-    el.nativeElement.style.backgroudColor = "poderblue"
-    console.log(
-      `* Contact heighlight called for ${el.nativeElement.tagName}`
-    )
+  constructor(el: ElementRef) {
+    el.nativeElement.style.backgroundColor = "powderblue"
+    console.log(`* Contact heighlight called for ${el.nativeElement.tagName}`)
   }
-
 }

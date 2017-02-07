@@ -2,6 +2,8 @@ import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { ContactRoutingModule } from './contact-routing.module';
+
 import { AwesomePipe } from './components/contact/awesome.pipe';
 
 import { ContactComponent } from './components/contact/contact.component';
@@ -12,7 +14,8 @@ import { ContactService } from './services/contact.service';
 @NgModule({
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    ContactRoutingModule,
   ],
   declarations: [
     ContactComponent,
@@ -22,8 +25,8 @@ import { ContactService } from './services/contact.service';
   providers: [
     ContactService
   ],
-  exports: [
-    ContactComponent
-  ]
+  // exports: [
+  //   ContactComponent
+  // ]
 })
 export class ContactModule { }

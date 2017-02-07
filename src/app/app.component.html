@@ -1,2 +1,7 @@
 <mod-title [subtitle]="subtitle"></mod-title>
-<mod-contact></mod-contact>
+<nav>
+    <a routerLink="contact" class="btn btn-primary" routerLinkActive="active">Contact</a>
+    <a routerLink="crisis" class="btn btn-primary" routerLinkActive="active">Crisis Center</a>
+    <a routerLink="heroes" class="btn btn-primary" routerLinkActive="active">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
